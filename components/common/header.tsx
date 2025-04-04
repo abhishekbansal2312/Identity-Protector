@@ -25,6 +25,7 @@ export default function Header() {
         <NavLink href={"/journey"} className="font-serif hover:text-green-600">
           Demo Here
         </NavLink>
+
         <NavLink href={"/#pricing"} className="font-serif hover:text-green-600">
           Secret Chambers
         </NavLink>
