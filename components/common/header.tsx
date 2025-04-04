@@ -16,7 +16,7 @@ export default function Header() {
         >
           <Shield className="w-5 h-5 lg:w-8 lg:h-8 text-green-600 hover:rotate-12 transform transition duration-200 ease-in-out" />
           <span className="font-serif font-extrabold lg:text-xl text-gray-900 bg-gradient-to-r from-green-700 to-emerald-500 bg-clip-text">
-            Identity Protector
+            Confidential Crusaders
           </span>
         </NavLink>
       </div>
