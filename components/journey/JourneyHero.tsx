@@ -130,6 +130,7 @@ const JourneyHero: React.FC = () => {
               loop
               playsInline
               controls
+              muted
             >
               <source src="./threat.mp4" type="video/mp4" />
               Your browser does not support the video tag.
