@@ -111,7 +111,7 @@ const JourneyHero: React.FC = () => {
               }}
               whileTap={{ scale: 0.98 }}
             >
-              View Demo
+              <Link href="/journey/#demo">View Demo</Link>
             </motion.button>
           </motion.div>
         </motion.div>
