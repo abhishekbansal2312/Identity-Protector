@@ -18,7 +18,7 @@ const JourneyFeatures: React.FC = () => {
 
   return (
     <div className="py-24">
-      <div className="container mx-auto px-4">
+      <div id="demo" className="container mx-auto px-4">
         <motion.div
           className="text-center mb-20"
           initial="hidden"
@@ -62,12 +62,20 @@ const JourneyFeatures: React.FC = () => {
             },
           }}
         >
-          <motion.img
-            src="./video.png"
-            alt="Demo Video"
-            className="w-96 h-72 object-cover"
+          <motion.div
+            className="w-1/2 h-80 rounded-2xl overflow-hidden shadow-md transition-all duration-300 bg-gradient-to-br from-green-50 via-white to-green-100"
             variants={fadeInUp}
-          />
+            whileHover={{
+              scale: 1.03,
+              boxShadow: "0 20px 30px -10px rgba(34, 197, 94, 0.4)", // smooth green glow
+            }}
+          >
+            <video
+              className="w-full h-full object-cover"
+              controls
+              src="./demo.mp4"
+            />
+          </motion.div>
         </motion.div>
       </div>
     </div>
