@@ -60,15 +60,15 @@ export default function Heemeraldction() {
         variants={itemVariants}
         className="font-serif font-bold text-4xl sm:text-5xl md:text-6xl py-6 leading-tight text-green-900"
       >
-        Protect Your Identity with{" "}
+        Protecting What Matters —{" "}
         <span className="relative inline-block">
-          <span className="relative z-10 px-2">magical</span>
+          <span className="relative z-10 px-2">Your</span>
           <span
             className="absolute inset-0 bg-green-300/50 -rotate-2 transform -skew-y-1"
             aria-hidden="true"
           ></span>
         </span>{" "}
-        enchantments
+        Identity
       </MotionH1>
 
       <MotionH2
