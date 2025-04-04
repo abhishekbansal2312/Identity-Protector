@@ -22,9 +22,13 @@ export default function Header() {
       </div>
 
       <div className="flex lg:flex-1 justify-center gap-4 lg:items-center lg:gap-4">
+        <NavLink href={"/journey"} className="font-serif hover:text-green-600">
+          Demo Here
+        </NavLink>
         <NavLink href={"/#pricing"} className="font-serif hover:text-green-600">
           Secret Chambers
         </NavLink>
+
         <SignedIn>
           <NavLink
             href={"/dashboard"}
