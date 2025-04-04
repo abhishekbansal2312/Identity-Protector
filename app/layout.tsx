@@ -15,8 +15,9 @@ const fontsans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Summarise",
-  description: "Summarise is an app to summarise text.",
+  title: "Confidential Crusaders",
+  description:
+    "Confidential Crusaders is an app to Confidential Crusaders text.",
 };
 
 export default function RootLayout({

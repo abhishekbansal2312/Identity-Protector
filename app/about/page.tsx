@@ -6,7 +6,7 @@ const About: React.FC = () => {
     <div className="container mx-auto px-4 py-8 max-w-4xl">
       <header className="mb-12 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-emerald-500 to-emerald-600 bg-clip-text text-transparent">
-          About Summarise
+          About Confidential Crusaders
         </h1>
       </header>
 
@@ -21,9 +21,9 @@ const About: React.FC = () => {
 
         <h2 className="text-2xl font-bold text-black mb-4">Our Mission</h2>
         <p className="text-gray-700 mb-6">
-          At Summarise, we're on a mission to help people save time and extract
-          valuable insights from lengthy documents. Our AI-powered tool
-          transforms PDFs into clean, digestible summaries so you can grasp
+          At Confidential Crusaders, we're on a mission to help people save time
+          and extract valuable insights from lengthy documents. Our AI-powered
+          tool transforms PDFs into clean, digestible summaries so you can grasp
           content quickly and focus on what matters most.
         </p>
 
@@ -35,7 +35,7 @@ const About: React.FC = () => {
             clean, digestible format so you can grasp the content quickly.
           </p>
           <p className="text-gray-700 font-bold mb-6">
-            Watch how Summarise transforms your PDFs into an{" "}
+            Watch how Confidential Crusaders transforms your PDFs into an{" "}
             <em>easy-to-read summary!</em>
           </p>
           <div className="text-center">
