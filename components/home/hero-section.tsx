@@ -108,6 +108,19 @@ export default function Heemeraldction() {
             View Protection Plans
           </Button>
         </MotionDiv>
+        <MotionDiv whileHover={buttonVariants}>
+          <Button
+            variant="outline"
+            className="px-8 py-5 text-lg sm:text-xl rounded-full border-2 border-green-500 hover:bg-green-100 hover:border-green-600 text-green-800 font-medium shadow-md"
+          >
+            <Link
+              href={"/workflow"}
+              className="font-serif hover:text-green-600"
+            >
+              WorkFlow
+            </Link>
+          </Button>
+        </MotionDiv>
       </MotionDiv>
 
       <MotionDiv variants={itemVariants} className="mt-16 opacity-80">
